@@ -6,15 +6,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project GitHub Tracker</title>
   <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
+
+
 <body>
-  <h1>GitHub Tracker</h1>
-  <h2>Projects:</h2>
-  <main id="projects"></main>
 
-  <!-- This will be used to draw the chart 👇 -->
-  <canvas id="chart"></canvas>
+    <div class="user-info">      
+    </div>
 
+    <div class="projects-container">
+      <label for="search">🔍 
+        <input type="search" class="search-input" id="search" placeholder="search repo"/> 
+      </label> 
+      
+      <div class="title">
+        <span></span>
+        <h2>Projects:</h2>
+      </div>
+      <main id="projects"></main>
+      <!-- This will be used to draw the chart 👇 -->
+      <canvas id="chart"></canvas>
+    </div>
+
+    
   <script src="./script.js"></script>
   <script src="./chart.js"></script>
 </body>
