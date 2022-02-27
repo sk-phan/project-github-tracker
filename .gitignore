@@ -2,4 +2,4 @@
 .env
 
 # Other
-code/token.js
+code/secret.js
