@@ -29,10 +29,9 @@ let colorNumber = 0;
 const colors = ["#F3E0F0", "#D6CDE9"];
 
 
-///////// ABOUT API //////////
+///////// ABOUT API /////////
 const username = "sukiphan97";
 const API_URL = `https://api.github.com/users/${username}/repos`;
-const API_TOKEN = TOKEN;
 
 
 const options = {
