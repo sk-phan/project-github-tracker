@@ -34,6 +34,7 @@ const username = "sukiphan97";
 const API_URL = `https://api.github.com/users/${username}/repos`;
 
 
+console.log(API_TOKEN)
 const options = {
     method: "GET",
     headers: {
