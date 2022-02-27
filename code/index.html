@@ -7,32 +7,89 @@
   <title>Project GitHub Tracker</title>
   <link rel="stylesheet" href="./style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 
 
 <body>
-
-    <div class="user-info">      
+  <div class="hidden see-more">
+    <div class="see-more-container">
+      <button class="close-modal-btn"><ion-icon name="close-circle-outline"></ion-icon></button>
+      <p class="commits">
+      </p>
+      <p class="comments-title" >💌 Comments</p>
+      <ul class="comments"> 
+      </ul>
     </div>
+  </div>
+  
+    <header class="user-info">      
+    </header>
 
-    <div class="projects-container">
-      <label for="search">🔍 
-        <input type="search" class="search-input" id="search" placeholder="search repo"/> 
+    <div class="input-container">
+      <label for="search">
+      <ion-icon name="search-outline"></ion-icon> 
+      <input type="search" class="search-input" id="search" placeholder="search for repo name"/> 
       </label> 
+     
+      <select id="filter" > 
+        <optgroup label="general">
+          <option value="" selected disabled> Sort </option> 
+          <option value="Last updated"> Last updated </option>          
+
+        </optgroup>
+         <optgroup id="language-group" label="language">
+         <option value="all"> All </option> 
+         <option value="HTML"> HTML </option> 
+         <option value="JavaScript"> JavaScript </option> 
+         </optgroup>
+       </select>
+
+    </div>
+    
+    
+    <div class="container">
       
-      <div class="title">
-        <span></span>
-        <h2>Projects:</h2>
-      </div>
-      <main id="projects"></main>
       <!-- This will be used to draw the chart 👇 -->
-      <canvas id="chart"></canvas>
+      <div class="canva">
+        <canvas class="chart" id="chart"></canvas>
+      </div>
+
+      <!-- This will be used to display projects 👇 -->
+      <main id="projects">
+      </main>
+      
     </div>
 
-    
-  <script src="./script.js"></script>
-  <script src="./chart.js"></script>
+    <footer>
+      <p>Designed & Developed by Suki Phan</p>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://twitter.com/suki_phan">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li> 
+          <li>
+            <a href="https://github.com/sukiphan97">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/nhung19/">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>   
+      </nav>
+    </footer>
+
+    <script src="./chart.js"></script>
+    <script src="./token.js"></script>
+   <script src="./script.js"></script>
+ 
 </body>
 </html>

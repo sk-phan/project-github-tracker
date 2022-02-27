@@ -1,0 +1,5 @@
+# Ignore environmental API keys
+.env
+
+# Other
+code/token.js
