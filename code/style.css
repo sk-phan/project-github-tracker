@@ -113,18 +113,17 @@ h1 {
 
   0% {
     transform: rotate(-12deg);
-
   }
 
   50% {
     transform: rotate(20deg);
     font-size: 3.6rem;
-
   }
   
   60% {
     transform: rotate(22deg);
   }
+  
   100% {
     transform: rotate(-12deg);
   }

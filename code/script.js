@@ -34,7 +34,6 @@ const username = "sukiphan97";
 const API_URL = `https://api.github.com/users/${username}/repos`;
 const API_TOKEN = TOKEN;
 
-//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"
 
 const options = {
     method: "GET",
@@ -45,7 +44,7 @@ const options = {
 
 
 ///////// FETCH FIRST API TO GET USER INFO AND PROJECTS //////////
-    fetch (API_URL, options)
+    fetch (API_URL)
         .then(res => res.json())
         .then(data => {
           
