@@ -34,7 +34,7 @@ Your page should include:
 
 ## The problem
 
-This week we focus on fetching and collecting datas from API. I found it challenging to collect the correct data and display them on the matching project. It was a good practice to learn about dynamic ID and how it helped me to solve the problem above. 
+This week we focused on fetching and collecting datas from API. I found it challenging to collect the correct datas and display them on the matching project. It was a good practice to learn about dynamic ID and how it helped me to solve the problem above. 
 
 My main goal was to go through all level requirents and learn as much as possible. It took me a long time to implement the search bar and filter button. I am happy to find a solution to complete it and learned a lot about how and when to use the filter() and sort() method. Regarding to the site's user friendliness, I selected few important categories such as languages, updated time, and show all to help the user get the search result faster.
 
