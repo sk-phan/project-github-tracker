@@ -42,7 +42,8 @@ My main goal was to go through all level requirents and learn as much as possibl
 
 I have to admit that the search field is not yet perfect, as I aimed to implement a function for the clear ❌ button. When the user click ❌, it will display all the project's cards, instead of showing empty space. 
 
-## Figma's link: https://www.figma.com/file/x2cLkf2v0G3r83hNHfUpgv/Untitled?node-id=0%3A1
+## Figma's link: 
+https://www.figma.com/file/x2cLkf2v0G3r83hNHfUpgv/Untitled?node-id=0%3A1
 
 ## View it live
 https://suki-github.netlify.app
